@@ -1,4 +1,4 @@
-#include <torch/extension.h>
+#include <torch/types.h>
 #include <THC/THCAtomics.cuh>
 #include <vector>
 #include <iostream>

@@ -17,7 +17,7 @@ setup(
             ],
             extra_compile_args={
                 'cxx': ['-O3'],
-                'nvcc': ['-O3'],
+                'nvcc': ['-O3', '-DEIGEN_HAS_STD_HASH=0'],
             }),
     ],
     cmdclass={ 'build_ext' : BuildExtension }
